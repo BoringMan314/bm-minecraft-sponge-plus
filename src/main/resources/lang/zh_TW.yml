@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: '版本 {version} 已啟用。'
+  disabled: '已停用。'
+  language-directory-failed: '無法建立語系目錄：{directory}'
+  language-backup-failed: '無法將 {file} 備份至 {backup}，將保留原始檔案。'
+  language-copy-failed: '無法複製內建語系檔案：{file}'
+  language-update-failed: '無法更新語系檔案：{file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-sponge-plus ═'
+  help-toggle: '&e/bm-minecraft-sponge-plus 0/1 &f- 開關指令'
+  help-reload: '&e/bm-minecraft-sponge-plus reload &f- 重新載入設定'
+  help-info: '&e/bm-minecraft-sponge-plus info &f- 顯示插件資訊'
+  help-status: '&e/bm-minecraft-sponge-plus status &f- 查看開關、狀態'
+  help-set: '&e/bm-minecraft-sponge-plus set X &f- 設定吸水半徑'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[海綿] &c錯誤：&f你沒有權限使用此管理指令。'
+  enabled: '&a[海綿] &f海綿 PLUS 已&e開啟。'
+  disabled: '&a[海綿] &f海綿 PLUS 已&e關閉。'
+  reloaded: '&a[海綿] &f設定已重新載入。'
+  info: '&a[海綿] &f版本：&e{version}'
+  status: '&a[海綿] &f啟用：&e{enabled} &f，吸水半徑：&e{radius} &f，範圍：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  radius-set: '&a[海綿] &f吸水半徑已設為 &e{radius} &f，範圍：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  usage-set: '&a[海綿] &f用法 &e/bm-minecraft-sponge-plus set <半徑>'
+  invalid-radius: '&a[海綿] &c錯誤：&f請輸入 1 至 128 的整數半徑。'
+  absorbed: '&a[海綿] &f已吸收 &e{count} &f格水。'

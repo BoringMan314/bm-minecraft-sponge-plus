@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: 'バージョン {version} を有効にしました。'
+  disabled: '無効にしました。'
+  language-directory-failed: '言語ディレクトリを作成できませんでした：{directory}'
+  language-backup-failed: '{file} を {backup} にバックアップできなかったため、元のファイルを保持します。'
+  language-copy-failed: '同梱の言語ファイルをコピーできませんでした：{file}'
+  language-update-failed: '言語ファイルを更新できませんでした：{file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-sponge-plus ═'
+  help-toggle: '&e/bm-minecraft-sponge-plus 0/1 &f- 有効／無効を切り替え'
+  help-reload: '&e/bm-minecraft-sponge-plus reload &f- 設定を再読み込み'
+  help-info: '&e/bm-minecraft-sponge-plus info &f- プラグイン情報を表示'
+  help-status: '&e/bm-minecraft-sponge-plus status &f- 状態を表示'
+  help-set: '&e/bm-minecraft-sponge-plus set X &f- 吸水半径を設定'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[スポンジ] &cエラー：&fこの管理コマンドを使用する権限がありません。'
+  enabled: '&a[スポンジ] &fスポンジ PLUS を&e有効 &fにしました。'
+  disabled: '&a[スポンジ] &fスポンジ PLUS を&e無効 &fにしました。'
+  reloaded: '&a[スポンジ] &f設定を再読み込みしました。'
+  info: '&a[スポンジ] &fバージョン：&e{version}'
+  status: '&a[スポンジ] &f有効：&e{enabled} &f、半径：&e{radius} &f、範囲：&e{diameter} &fx &e{diameter} &fx &e{diameter}。'
+  radius-set: '&a[スポンジ] &f吸水半径を &e{radius} &f、範囲を &e{diameter} &fx &e{diameter} &fx &e{diameter} &fに設定しました。'
+  usage-set: '&a[スポンジ] &f使い方 &e/bm-minecraft-sponge-plus set <半径>'
+  invalid-radius: '&a[スポンジ] &cエラー：&f1 から 128 までの整数半径を入力してください。'
+  absorbed: '&a[スポンジ] &e{count} &f個の水ブロックを吸収しました。'

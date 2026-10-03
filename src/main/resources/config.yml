@@ -1,0 +1,8 @@
+# 海綿 PLUS 總開關。
+enabled: true
+
+# 以海綿為中心各軸的半徑；10 即最大 21x21x21，只處理連通水域。
+absorption-radius: 10
+
+# 遊戲內管理指令是否需要 OP。
+admin-require-op: true

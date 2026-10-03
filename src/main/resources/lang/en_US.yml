@@ -1,0 +1,28 @@
+language-format-version: 1
+
+console:
+  enabled: 'Version {version} enabled.'
+  disabled: 'Disabled.'
+  language-directory-failed: 'Could not create language directory: {directory}'
+  language-backup-failed: 'Could not back up {file} to {backup}; keeping the original file.'
+  language-copy-failed: 'Could not copy bundled language file: {file}'
+  language-update-failed: 'Could not update language file: {file}'
+
+messages:
+  help-header: '&6&l═ bm-minecraft-sponge-plus ═'
+  help-toggle: '&e/bm-minecraft-sponge-plus 0/1 &f- Enable or disable the feature'
+  help-reload: '&e/bm-minecraft-sponge-plus reload &f- Reload configuration'
+  help-info: '&e/bm-minecraft-sponge-plus info &f- Show plugin information'
+  help-status: '&e/bm-minecraft-sponge-plus status &f- Show enabled status'
+  help-set: '&e/bm-minecraft-sponge-plus set X &f- Set absorption radius'
+  help-footer: '&6&l═══════════════════════════════'
+  no-permission: '&a[Sponge] &cError: &fYou do not have permission to use this management command.'
+  enabled: '&a[Sponge] &fSponge PLUS is &eenabled.'
+  disabled: '&a[Sponge] &fSponge PLUS is &edisabled.'
+  reloaded: '&a[Sponge] &fConfiguration reloaded.'
+  info: '&a[Sponge] &fVersion: &e{version}'
+  status: '&a[Sponge] &fEnabled: &e{enabled} &f, radius: &e{radius} &f, range: &e{diameter} &fx &e{diameter} &fx &e{diameter}.'
+  radius-set: '&a[Sponge] &fAbsorption radius set to &e{radius} &f, range: &e{diameter} &fx &e{diameter} &fx &e{diameter}.'
+  usage-set: '&a[Sponge] &fUsage &e/bm-minecraft-sponge-plus set <radius>'
+  invalid-radius: '&a[Sponge] &cError: &fEnter a whole-number radius from 1 to 128.'
+  absorbed: '&a[Sponge] &fAbsorbed &e{count} &fwater blocks.'

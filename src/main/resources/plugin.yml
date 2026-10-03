@@ -1,0 +1,19 @@
+name: bm-minecraft-sponge-plus
+version: "26.3_0.0.1"
+main: bm.minecraft.sponge.plus.BmMinecraftSpongePlusPlugin
+api-version: '26.3'
+description: "海綿 PLUS。"
+authors:
+  - "[B.M] 圓周率™3.14"
+website: "http://exnormal.com:81/"
+commands:
+  bm-minecraft-sponge-plus:
+    description: 管理 bm-minecraft-sponge-plus。
+    usage: /bm-minecraft-sponge-plus [0|1|info|status|reload|set <範圍>]
+permissions:
+  bm-minecraft-sponge-plus.use:
+    description: 允許海綿吸水。
+    default: true
+  bm-minecraft-sponge-plus.admin:
+    description: 允許管理 bm-minecraft-sponge-plus。
+    default: op
